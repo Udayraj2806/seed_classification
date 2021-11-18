@@ -4,3 +4,7 @@ sklearn~=0.0
 scikit-learn~=0.24.2
 Flask~=2.0.2
 gunicorn
+Decision_Node
+classify
+Leaf
+Question
