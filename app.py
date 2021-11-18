@@ -2,7 +2,7 @@ from flask import Flask,request,jsonify
 import numpy as np
 
 import main
-from main import Decision_Node,classify,Leaf,Question
+from main import Decision_Node,Leaf,Question
 import pickle
 
 model = pickle.load(open('model.pkl','rb'))
